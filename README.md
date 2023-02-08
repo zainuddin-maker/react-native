@@ -11,3 +11,12 @@ Native artinya adalah aplikasi mobile yang dibuat khusus untuk sistem operasi te
 Cara kerja react native
 
 ![Chat Preview](https://github.com/zainuddin-maker/react-native/blob/master/carakerja.jpg?raw=true)
+
+Cara Kerja React Native cukup simple, yaitu:
+
+- Developer menggunakan kode React untuk membangun interface aplikasi;
+- Kode React akan diinterpretasikan menjadi JavaScript agar nantinya bisa digunakan untuk aplikasi mobile;
+- React Native akan menggunakan fitur bridge untuk mengolah codebase menjadi Native Module (Android Module, iOS Module);
+- Native Module siap digunakan di platform yang bersangkutan.
+
+React Native tetap memiliki pro dan kontra.
