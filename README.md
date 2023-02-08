@@ -10,4 +10,4 @@ Native artinya adalah aplikasi mobile yang dibuat khusus untuk sistem operasi te
 
 Cara kerja react native
 
-![Chat Preview](https://github.com/zainuddin-maker/react-native/blob/master/Cara-Kerja-React-Native.jpg?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/react-native/blob/master/carakerja.jpg?raw=true)
