@@ -20,3 +20,7 @@ Cara Kerja React Native cukup simple, yaitu:
 - Native Module siap digunakan di platform yang bersangkutan.
 
 React Native tetap memiliki pro dan kontra.
+
+![Chat Preview](https://github.com/zainuddin-maker/react-native/blob/master/proandkontra.PNG?raw=true)
+
+
