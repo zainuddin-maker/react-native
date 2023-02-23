@@ -137,5 +137,35 @@ make sure it is Node 14 or newer
 
 
 
-in `package.json` 
+in folder `ProjctName1`
+`devDependencies` digunakan untuk developmentnya saja.
+
+`eslintrc.js` dan `prettier` digunakan untuk merapikan dan menampilkan error pada code .
+
+---
+### Basic Componnents React Native
+
+- View -> (like div) membungkus seusatu dan dapat diberikan style.
+
+- Text -> A commponent for displaying text.
+
+- Image -> A component for displaying images 
+
+- TextInput -> A component for inputting text into the app via a keyboard.
+
+- ScroolView -> unutk menanmbahkan scrool pada beberapa view .
+
+- StyleSheet -> Provide an abstraction layer similar to CSS stylesheet.
+
+we can make components using either classes or functions.
+
+Before the introduction of Hooks in React, functional component were called stateless components and were behind class components on feature basis. After the introduction of Hooks, functional component are equivalent to class component
+
+different between class component and function component : 
+
+- syntax -  Just like their names, a functional component is just a plain javascript function that returns JSX (javascript xml). A class component is a javascript class that extends React.Component which has a render method.
+
+- Handling props - Props provided as argument to the functional component and can be directly use inside HTML element. While in the class components, props are handled in a different way. **`this`** keyword is used while using props inside HTML element.
+
+- Handling state - Functional component use React Hooks to handle state. It uses useState hook to set the state of a variable inside the component. Since useState hook returns an array of two items, first item contains the current state, and the second item is a function to update the state. In the Class components, state can be defined as an object outside the render method. It can also be defined inside constructor using this keyword. We can read state using this.state.property_name. And state can be updated using this.setState function. If we are defining state inside constructor, for updating state, we need to first bind the function to this keyword, only then we’ll be able to use setState function to update state.
 
