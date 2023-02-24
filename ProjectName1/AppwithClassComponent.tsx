@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Image, Text, View } from "react-native";
 
 class AppwithClassComponent extends React.Component {
-
+  
     render() {
-
+        console.log("xxx")
         return (
             <View>
                 <Text>Zainuddin </Text>

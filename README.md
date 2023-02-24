@@ -169,3 +169,53 @@ different between class component and function component :
 
 - Handling state - Functional component use React Hooks to handle state. It uses useState hook to set the state of a variable inside the component. Since useState hook returns an array of two items, first item contains the current state, and the second item is a function to update the state. In the Class components, state can be defined as an object outside the render method. It can also be defined inside constructor using this keyword. We can read state using this.state.property_name. And state can be updated using this.setState function. If we are defining state inside constructor, for updating state, we need to first bind the function to this keyword, only then we’ll be able to use setState function to update state.
 
+
+---
+## Import And Export
+
+perbedaan antara export default dan export biasa ,
+
+export default menggunakan sintak 
+```
+export default somefunction
+```
+dan berada di akhir code.
+sedangkan export biasa  tulisan export berada di awal fungsi yang mau di export contohnya :
+```
+export sum()
+```
+
+dan pada pemaikain import berbeda , jika pakek export default maka pemanggilan import tanpa `{}` jika export biasa pakai `{}`
+
+--- 
+## Flex Box
+
+```
+flex : 1
+```
+
+digunakan untuk menjadikan widht view memenuhi sampai akhir dari phone.
+
+namun jika kita jadi kan row , maka pembagian nya berdasarkan flex , jika terdpat 3 item dengan masing masing flex nya adalah , 1 , 2,3 maka pembagian widht nya adalah 1/6 ,2/6,3/6 .
+
+kita bisa menggunakan alignitem and justifycontent
+
+--- 
+## position 
+
+positon absolte untuk child ,
+potition relative untuk parent
+
+---
+## Lifecycle Class Component
+
+>menggunakan debugger 
+cntrl M di applikasi lalu klik debug , dan inspect element.
+
+3 lifecycle utama :
+- Mounting
+- Updating 
+- Unmounting
+
+
+

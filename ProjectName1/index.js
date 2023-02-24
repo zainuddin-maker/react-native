@@ -8,4 +8,4 @@ import AppwithFunctionalComponent from './AppwithFunctionalComponent';
 import AppwithClassComponent from './AppwithClassComponent';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => AppwithFunctionalComponent);
+AppRegistry.registerComponent(appName, () => AppwithClassComponent);
